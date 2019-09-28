@@ -6,13 +6,6 @@ body{
     background-color:rgb(39, 185, 178);
 }
 
-#player{
-    background-color:rgb(235, 20, 128);
-    width: 300px;
-    margin-right:300px;
-    padding:5px;
-    box-sizing:border-box;
-}
 input[type="image"]{
     float:left;
     height:20px;
@@ -34,6 +27,14 @@ input[type="image"]{
     margin-right: auto;
     padding:10px;
     width: 300px;
+}
+
+.player{
+    background-color:rgb(235, 20, 128);
+    width: 300px;
+    margin-right:300px;
+    padding:5px;
+    box-sizing:border-box;
 }
 
 .portada{
