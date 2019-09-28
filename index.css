@@ -17,6 +17,11 @@ table, th, td{
     background-color: turquoise;
 }
 
+#gomusic{
+    text-align: center;
+    background-color: magenta;
+}
+
 .imagen{
     display: block;
     margin-left: auto;
