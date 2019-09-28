@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+
+    <head>
+        <title>Reproductor de Musica</title>
+        <link rel="stylesheet" 
+        type="text/css" 
+        href="musicPlayer.css"/>
+        <script type="text/javascript"
+        src="musicPlayer.js"></script>
+    </head>
+
+    <body>
+        <div id="backinfo">
+            <a href="index.html">volver</a>
+        </div>
+        <h1 style="text-align: center">Albumes</h1>
+        <div class="wrapper">
+            <h3>Rage Against the Machine</h3>
+            <img class="portada" src="imagenes/RATM_album.jpg" alt="Portada del album"/>
+            <div id="player">
+                <audio id="musicPlayer">
+                    <source src="musica/killing_in_the_name.mp3"/>
+                </audio>
+                <input type="image" src="imagenes/play.png"
+                onclick="play_aud()" id="playButton">
+                <input type="image" src="imagenes/pause.png"
+                onclick="pause_aud()" id="playButton">
+                <input type="image" src="imagenes/stop.png"
+                onclick="stop_aud()" id="playButton">
+                <img src="imagenes/volume.png" id="volImg">
+                <input type="range" id="changeVol" onchange="changeVol()"
+                step="0.05" min="0" max="1" value="1">
+            </div>
+        </div>
+        <div class="wrapper">
+                <h3>Evil Empire</h3>
+                <img class="portada" src="imagenes/EvilEmpire_album.jpg" alt="Portada del album"/>
+                <div id="player">
+                    <audio id="musicPlayer">
+                        <source src="musica/killing_in_the_name.mp3"/>
+                    </audio>
+                    <input type="image" src="imagenes/play.png"
+                    onclick="play_aud()" id="playButton">
+                    <input type="image" src="imagenes/pause.png"
+                    onclick="pause_aud()" id="playButton">
+                    <input type="image" src="imagenes/stop.png"
+                    onclick="stop_aud()" id="playButton">
+                    <img src="imagenes/volume.png" id="volImg">
+                    <input type="range" id="changeVol" onchange="changeVol()"
+                    step="0.05" min="0" max="1" value="1">
+                </div>
+        </div>
+    </body>
+
+</html>
