@@ -24,8 +24,8 @@ input[type="image"]{
 .wrapper{
     float: left;
     text-align:left;
-    padding:10px;
-    width: 24%;
+    padding: 1%;
+    width: 31%;
 }
 
 .player{
@@ -42,12 +42,8 @@ input[type="image"]{
     width: 100%;
 }
 
-#album{
-    text-align: center;
-    background-color: rgb(235, 20, 128);
-}
-
 .titulo{
     text-align: center;
     background-color: rgb(235, 20, 128);
+    height: 100%;
 }

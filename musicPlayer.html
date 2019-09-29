@@ -53,6 +53,24 @@
                     step="0.05" min="0" max="1" value="1">
                 </div>
         </div>
+        <div class="wrapper">
+            <h3 class="titulo">The Battle of Los Angeles</h3>
+            <img class="portada" src="imagenes/TheBattleOfLosAngeles.jpg" alt="Portada del album"/>
+            <div class="player">
+                <audio id="musicPlayer3">
+                    <source src="musica/Testify.mp3"/>
+                </audio>
+                <input type="image" src="imagenes/play.png"
+                onclick="play_aud3()" id="playButton">
+                <input type="image" src="imagenes/pause.png"
+                onclick="pause_aud3()" id="playButton">
+                <input type="image" src="imagenes/stop.png"
+                onclick="stop_aud3()" id="playButton">
+                <img src="imagenes/volume.png" id="volImg">
+                <input type="range" id="changeVol3" onchange="changeVol3()"
+                step="0.05" min="0" max="1" value="1">
+            </div>
+        </div>
     </body>
 
 </html>
