@@ -12,6 +12,11 @@ table, th, td{
     text-align: center;
 }
 
+.ultInfo{
+    text-align: left;
+    width: 300px;
+}
+
 #goinfo{
     text-align: center;
     background-color: turquoise;
