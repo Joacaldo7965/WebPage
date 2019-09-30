@@ -14,7 +14,8 @@ table, th, td{
 
 .ultInfo{
     text-align: left;
-    width: 300px;
+    width: 30%;
+    font-size: 20px;
 }
 
 #goinfo{
@@ -27,16 +28,17 @@ table, th, td{
     background-color: magenta;
 }
 
-.imagen{
+#imagen{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 100%;
 }
 
 .parrafo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
 }

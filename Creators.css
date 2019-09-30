@@ -6,14 +6,22 @@ body {
     
   }
   
-  #band-last-info h2 {
-    text-align: left;
-  }
+#band-last-info h2 {
+  text-align: left;
+}
   
-  #list-container {
-    display: flex;
-    justify-content: space-around;
-  }
+#list-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#titulo{
+  text-align: center ; 
+  color: black; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 40px;
+}
+
 
 img{
   border: 6px solid rgb(0, 0, 0);
@@ -23,7 +31,7 @@ img{
 }
 
 body{
-  background-image: url('imagenes/mine2.jpg');
+  background-image: url("imagenes/mine2.jpg");
 }
     
 table {

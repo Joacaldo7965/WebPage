@@ -5,6 +5,21 @@
         <link rel="stylesheet" 
         type="text/css" 
         href="Creators.css"/>
+        <script type="text/javascript"
+        src="Creators.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+                $(document).ready(function(){
+                  $(".fotos").hover(function(){
+                    $("body").css("background-color", "yellow");
+                    document.body.style.background = "#f3f3f3 url('imagenes/mine.jpg')";
+                    document.body.title.background = "red"
+                    }, function(){
+                    $("body").css("background-image", "imagenes/mine.jpg");
+                    document.body.style.background = "#f3f3f3 url('imagenes/mine2.jpg')";
+                  });
+                });
+                </script>
     </head>
 
     <body id="elbody">
@@ -13,29 +28,23 @@
             <source src="musica/sweden.mp3">  
         </audio>  
             
-         
-
         <div id="backinfo">
             <a href="index.html">volver</a> 
         </div>
 
-        <h2 style="text-align: center ; color: black; font-family: 'Times New Roman', Times, serif; font-size: 40px">CREADORES</h2>
-        
-    
-        
-        
+        <h2 id="titulo">CREADORES</h2>
         <table style="width:100%">
             <tr>
             
-            <th style="color: rgb(114, 0, 124); font-weight: bolder;">Joaquín Calderon</th>
+            <th style="color: rgb(114, 0, 124); font-weight: bolder;">Joaquin Calderon</th>
 
-            <th style="color: rgb(114, 0, 124); font-weight: bolder;">Tomás Nieto</th> 
+            <th style="color: rgb(114, 0, 124); font-weight: bolder;">Tomas Nieto</th> 
             </tr>
 
             <tr>
-            <td style="font-weight: bold; color: rgb(119, 0, 255)">¡Sabe programar con los<br>ojos cerrados!</td>
+            <td style="font-weight: bold; color: rgb(119, 0, 255)">Sabe programar con los<br>ojos cerrados!</td>
 
-            <td style="font-weight: bold; color: rgb(119, 0, 255)">¡Con suerte sabe Pitón!</td>
+            <td style="font-weight: bold; color: rgb(119, 0, 255)">Con suerte sabe Piton!</td>
             </tr>
 
             <tr>
@@ -43,7 +52,6 @@
             <td><img class="fotos" src="imagenes/foto.gif"></td> 
         </tr>
         </table>
-
     </body>
 
 </html>
