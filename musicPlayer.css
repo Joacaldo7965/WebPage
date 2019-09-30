@@ -45,5 +45,11 @@ input[type="image"]{
 .titulo{
     text-align: center;
     background-color: rgb(235, 20, 128);
-    height: 100%;
+    height: auto;
+    width: 100%;
 }
+
+#Bottom {
+    position : absolute;
+    bottom : 55px;
+ }
