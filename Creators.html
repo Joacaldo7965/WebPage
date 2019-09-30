@@ -1,29 +1,5 @@
 <!DOCTYPE html>
 <html lang="es-CL">
-    <style>
-        
-    img{
-        border: 6px solid rgb(0, 0, 0);
-        border-radius: 10px;
-        padding: 0px;
-        width: 300px;
-    }
-
-
-    img:hover {
-        box-shadow: 0 0 3px 2px black;
-        -webkit-filter: invert(100%);
-        filter: invert(100%);
-    }
-    body {
-        background-image: url('imagenes/mine2.jpg');
-    }
-    
-    table {
-        border-spacing: 20px;
-        text-align: center;
-    }
-    </style>
     <head>
         <title>Creadores</title>
         <link rel="stylesheet" 
@@ -31,7 +7,7 @@
         href="Creators.css"/>
     </head>
 
-    <body>
+    <body id="elbody">
         <audio autoplay="autoplay"; controls="controls"; loop>  
             <source src="musica/sweden.ogg">    
             <source src="musica/sweden.mp3">  
@@ -63,8 +39,8 @@
             </tr>
 
             <tr>
-            <td><img src="imagenes/foto1.jpg"></td>
-            <td><img src="imagenes/foto.gif"></td> 
+            <td><img class="fotos" src="imagenes/foto1.jpg"></td>
+            <td><img class="fotos" src="imagenes/foto.gif"></td> 
         </tr>
         </table>
 
