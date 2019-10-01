@@ -12,10 +12,10 @@ table, th, td{
     text-align: center;
 }
 
-.ultInfo{
-    text-align: left;
-    width: 30%;
-    font-size: 20px;
+#tabla{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #goinfo{
@@ -41,4 +41,13 @@ table, th, td{
     font-size: 20px;
     padding-left: 1%;
     padding-right: 1%;
+}
+
+.ultInfo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infotabla{
+    font-size: 20px;
 }
