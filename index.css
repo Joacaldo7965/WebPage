@@ -2,6 +2,11 @@ table, th, td{
     padding: 15px;
 }
 
+body {
+    background-image: url("imagenes/g.jpg");
+    
+    }
+    
 #mainTitulo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -10,6 +15,7 @@ table, th, td{
 #integTitulo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-size: 310%;
 }
 
 #tabla{
@@ -41,13 +47,25 @@ table, th, td{
     font-size: 20px;
     padding-left: 1%;
     padding-right: 1%;
+    background-color:rgb(255, 115, 0);
+    width: 100%;
+    padding:5px;
+    box-sizing:border-box;
 }
 
 .ultInfo{
     margin-left: auto;
     margin-right: auto;
+    font-size: 120%;
 }
 
 .infotabla{
     font-size: 20px;
+    font-size: 120%;
+    
+}
+
+#gente{
+    font-size: 140%;
+
 }
