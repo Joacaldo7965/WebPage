@@ -6,11 +6,17 @@
         <link rel="stylesheet" 
         type="text/css" 
         href="index.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
     </head>
 
-    <body background="imagenes/g.jpg">
+    <body background="imagenes/g.jpg" style="font-family: 'Merienda'">
 
-        <img style="display: block;margin-left: auto;margin-right: auto ;width: 70%" src="imagenes/Rage_Against_the_Machine_(Logo).png">
+        <img style="display: block;
+        margin-left: auto;
+        margin-right: auto ;
+        width: 70%;
+        margin-top: 4%;" 
+        src="imagenes/Rage_Against_the_Machine_(Logo).png">
 
         <div class="contenedor">
                 <p class="parrafo"><b>Rage Against the Machine</b> (también conocido como 
@@ -31,54 +37,60 @@
                 </p>
               </div>
 
-        <img style="border-radius: 1%" src="imagenes/Integrantes.jpg" alt="Integrantes de RATM"
+        <img style="border-radius: 0.4%" src="imagenes/Integrantes.jpg" alt="Integrantes de RATM"
         id="imagen">
         
-        <h2 id="integTitulo"; style="background-color: red">Integrantes</h2>
+        <h2 class="contenedorTitulo" style="color: rgb(248, 156, 36)">Integrantes</h2>
 
         <table align="center">
-            <tr style="background: darksalmon; font-size: 240%;">
+            <tr style="font-size: 140%;
+            padding: 1% 1%;
+            margin-bottom: 1%;
+            background-color: rgba(117, 131, 160, 0.85);
+            border-radius: 1%;">
                 <th>Nombre</th>
                 <th>Rol</th>
             </tr>
-            <tr id="gente"; style="background-color: red">
+            <tr class="gente">
                 <td>Zack de la Rocha</td>
                 <td>Vocalista</td>
             </tr>
-            <tr id="gente"; style="background-color: rgb(255, 115, 0)">
+            <tr class="gente">
                 <td>Tim Commerford</td>
                 <td>Bajista</td>
             </tr>
-            <tr id="gente" style="background-color: red">
+            <tr class="gente">
                 <td>Tom Morello</td>
                 <td>Guitarra</td>
             </tr>
-            <tr id="gente"; style="background-color: rgb(255, 115, 0)">
+            <tr class="gente">
                 <td>Brad Wilk</td>
                 <td>Baterista</td>
             </tr>
         </table>
 
-        <h2 style="text-align: center; font-size: 200%; background-color: rgb(0, 148, 111);">Ultima Informacion</h2>
+        <h2 class="contenedorTitulo" style="color: rgb(248, 156, 36)">Ultima Informacion</h2>
 
         <table id="tabla">
             <tr>
-                <th style="font-size: 180%; width: 50%; background-color: turquoise">Ultimos discos</th>
-                <th style="font-size: 180%; width: 45%; background-color: magenta">Ultimos conciertos</th>
+                <th class="contenedor" style="font-size: 150%; width: 50%">Ultimos discos</th>
+                <th class="contenedor" style="font-size: 150%; width: 50%">Ultimos conciertos</th>
             </tr>
             <tr>
                 <td class="ultInfo">
-                    <div class="infotabla"; style="background-color: turquoise">
-                        <li style= "padding: 1%">Renegades (2000)</li>
-                        <li style= "padding: 1%">The Battle of Los Angeles (1999)</li>
-                        <li style= "padding: 1%">Evil Empire (1996)</li>
+                    <div class="contenedor">
+                        <p>• Renegades (2000)<br>
+                           • The Battle of Los Angeles (1999)<br>
+                           • Evil Empire (1996)</p>
+                        
                     </div>
                 </td>
                 <td class="ultInfo">
-                    <div class="infotabla" style="background-color: magenta">
-                        <li style= "padding: 1%">South America Tour (2010)</li>
-                        <li style= "padding: 1%">Australian Tour (2008)</li>
-                        <li style= "padding: 1%">Vegoose Festival (26-28/10/2007)</li>
+                    <div class="contenedor">
+                        <p>• South America Tour (2010)<br>
+                           • Australian Tour (2008)<br>
+                           • Vegoose Festival (2007)
+                        </p>
                     </div>
                 </td>
             </tr>

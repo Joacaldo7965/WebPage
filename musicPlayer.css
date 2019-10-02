@@ -2,8 +2,8 @@ body{
     width:100%;
     margin:0 auto;
     padding:0px;
-    font-family:helvetica;
-    background-color:rgb(39, 185, 178);
+    font-family: 'Merienda';
+    background-image: url(imagenes/fondo.jpg)
 }
 
 input[type="image"]{
@@ -13,12 +13,20 @@ input[type="image"]{
     margin-right:5px;
     margin-top:2px;
 }
+
+#backinfo{
+    position: absolute; 
+    top:5%; 
+    left:93%;
+    font-size: large;
+}
+
 #volImg{
- margin-left:10px;
- margin-top: 0px;
- padding: 4px;
- height: 20px;
- width:20px;
+    margin-left:10px;
+    margin-top: 0px;
+    padding: 4px;
+    height: 20px;
+    width: 20px;
 }
 
 .wrapper{
@@ -28,28 +36,31 @@ input[type="image"]{
     width: 31%;
 }
 
-.player{
-    background-color:rgb(235, 20, 128);
+.player{ 
+    background-color: rgba(223, 96, 199, 0.67);
     width: 100%;
-    padding:5px;
+    padding:1%;
     box-sizing:border-box;
 }
 
 .portada{
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
+    height: auto;
     width: 100%;
 }
 
 .titulo{
     text-align: center;
-    background-color: rgb(235, 20, 128);
+    background-color: rgba(223, 96, 199, 0.67);
     height: auto;
     width: 100%;
 }
 
 #Bottom {
-    position : absolute;
-    bottom : 40px;
+    float: right;
+    bottom : 0%;
+    height: auto;
+    width: 100%;
+    background-color: rgba(223, 96, 199, 0.67);
  }

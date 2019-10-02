@@ -1,14 +1,8 @@
 table, th, td{
     padding: 15px;
 }
-    
-#mainTitulo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-}
 
 #integTitulo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 310%;
 }
@@ -16,7 +10,7 @@ table, th, td{
 #tabla{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
 }
 
 #goinfo{
@@ -26,7 +20,7 @@ table, th, td{
 
 #gomusic{
     text-align: center;
-    background-color: magenta;
+    background-color: rgb(223, 96, 199);
 }
 
 #imagen{
@@ -37,7 +31,6 @@ table, th, td{
 }
 
 .parrafo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     font-size: 20px;
     padding-left: 1%;
@@ -59,25 +52,31 @@ table, th, td{
     
 }
 
-#gente{
-    font-size: 140%;
+.gente{
+    font-size: 140%; 
+    padding: 1% 1%;
+    margin-bottom: 1%;
+    background-color: rgba(170, 183, 211, 0.75);
+    border-radius: 1%;
 
 }
 
 .contenedor {
-    padding: 2rem 1rem;
+    padding: 1% 1%;
     margin-bottom: 1%;
     background-color: rgba(170, 183, 211, 0.75);
-    border-radius: 1%;
-  }
+    border-radius: 0.4%;
+}
 
-  .display-3 {
-    font-size: 4.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-  }
-
-  .lead {
-    font-size: 1.25rem;
-    font-weight: 300;
-  }
+.contenedorTitulo{
+    text-align: center;
+    padding: 1% 1%;
+    margin-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    font-size: 300%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
