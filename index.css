@@ -1,11 +1,6 @@
 table, th, td{
     padding: 15px;
 }
-
-body {
-    background-image: url("imagenes/g.jpg");
-    
-    }
     
 #mainTitulo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,7 +42,6 @@ body {
     font-size: 20px;
     padding-left: 1%;
     padding-right: 1%;
-    background-color:rgb(255, 115, 0);
     width: 100%;
     padding:5px;
     box-sizing:border-box;
@@ -69,3 +63,21 @@ body {
     font-size: 140%;
 
 }
+
+.contenedor {
+    padding: 2rem 1rem;
+    margin-bottom: 1%;
+    background-color: rgba(170, 183, 211, 0.75);
+    border-radius: 1%;
+  }
+
+  .display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }

@@ -40,9 +40,6 @@ table {
 }
 
 .fotos:hover{
-  /*
-  background-image: url('imagenes/mine.jpg');
-  */
   box-shadow: 0 0 3px 2px black;
   -webkit-filter: invert(100%);
   filter: invert(100%);
