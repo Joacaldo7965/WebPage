@@ -16,7 +16,7 @@ body {
   text-align: center ; 
   color: black; 
   font-family: 'Merienda','Times New Roman', Times, serif; 
-  font-size: 40px;
+  font-size: 250%;
 }
 
 
@@ -47,6 +47,6 @@ table {
   font-size: 70%;
   color:rgb(248, 156, 36);
   padding: 1%;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
 }
