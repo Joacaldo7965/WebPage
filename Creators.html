@@ -12,8 +12,9 @@
                 $(document).ready(function(){
                   $(".fotos").hover(function(){
                     $("body").css("background-color", "yellow");
+                    /*
                     document.body.style.background = "#f3f3f3 url('imagenes/mine.jpg')";
-                    document.body.title.background = "red"
+                    */
                     }, function(){
                     $("body").css("background-image", "imagenes/mine.jpg");
                     document.body.style.background = "#f3f3f3 url('imagenes/mine2.jpg')";
@@ -26,29 +27,24 @@
 
     <body id="elbody" style="font-family: 'Merienda'">
         
-        <audio autoplay="autoplay" controls="controls" loop style="position: fixed; top: 90%; left: 86%; width: 13%;" >  
+        <audio autoplay="autoplay" controls loop style="position: fixed; top: 20%; left: 79%; width: 20%;" >  
             <source src="musica/sweden.ogg">    
             <source src="musica/sweden.mp3">  
-        </audio>  
-        <!--
-        <div id="backinfo">
-            <a href="index.html"; style="position: absolute; top:0%; left:93%;">volver</a> 
-        </div>
-        -->
+        </audio>
 
-        <h2 id="titulo">CREADORES</h2>
+        <h2 class="contenedorTitulo" style="color: rgb(248, 156, 36)">CREADORES</h2>
         
-        <nav id="navbar" style="font-size: 110%">
-                <a class="navbarElem" style="margin-left: 1%" href="index.html">Inicio</a> |
-                <a class="navbarElem" href="musicPlayer.html">Música</a> |
-                <a class="navbarElem" href="Creators.html">Nosotros</a> |
-            </nav> 
-        <table style="width:100%">
+        <nav id="navbar">
+            <a class="navbarElem" style="margin-left: 1%" href="index.html"><b>Inicio</b></a> |
+            <a class="navbarElem" href="musicPlayer.html"><b>Música</b></a> |
+            <a class="navbarElem" href="Creators.html"><b>Nosotros</b></a> |
+        </nav> 
+        <table style="width:100%" align="center">
             <tr style="font-size: 200%">
             
-            <th style="color: rgb(114, 0, 124); font-weight: bolder;">Joaquín Calderón</th>
+            <th style="color: rgb(114, 0, 124); font-weight: bolder; width: 50%">Joaquín Calderón</th>
 
-            <th style="color: rgb(114, 0, 124); font-weight: bolder;">Tomás Nieto</th> 
+            <th style="color: rgb(114, 0, 124); font-weight: bolder; width: 50%">Tomás Nieto</th> 
             </tr>
 
             <tr style="font-size: 170%">
