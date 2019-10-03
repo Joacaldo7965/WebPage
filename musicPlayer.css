@@ -59,6 +59,10 @@ input[type="image"]{
     width: 100%;
 }
 
+#tituloPrincipal{
+    width: 20%;
+}
+
 #Bottom {
     float: right;
     bottom : 0%;
