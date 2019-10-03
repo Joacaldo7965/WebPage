@@ -1,10 +1,6 @@
 body{
-    width:100%;
-    margin:0 auto;
-    padding:0px;
     font-family: 'Merienda', 'Times New Roman', Times, serif;
     background-image: url(imagenes/fondo.jpg);
-    background-repeat: no-repeat;
     background-size: 100%;
 }
 
@@ -14,13 +10,6 @@ input[type="image"]{
     margin-left:2px;
     margin-right:5px;
     margin-top:2px;
-}
-
-#backinfo{
-    position: absolute; 
-    top:5%; 
-    left:93%;
-    font-size: large;
 }
 
 #volImg{
@@ -39,7 +28,7 @@ input[type="image"]{
 }
 
 .player{ 
-    background-color: rgba(223, 96, 199, 0.67);
+    background-color: rgba(117, 131, 160, 0.85);
     width: 100%;
     padding:1%;
     box-sizing:border-box;
@@ -52,27 +41,17 @@ input[type="image"]{
     width: 100%;
 }
 
-.titulo{
-    text-align: center;
-    background-color: rgba(223, 96, 199, 0.67);
-    height: auto;
+#relleno{
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 1%;
+    border-radius: 1%;
     width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-#tituloPrincipal{
-    width: 20%;
-}
-
-#Bottom {
-    float: right;
-    bottom : 0%;
-    height: auto;
-    width: 100%;
-    background-color: rgba(223, 96, 199, 0.67);
- }
 
  #navbar{
-
     display: block;
     margin-bottom: 1%;
     margin-left: auto;
@@ -83,5 +62,48 @@ input[type="image"]{
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 5px;
-    
+}
+
+.navbarElem{
+    color:rgb(248, 156, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.contenedor {
+    padding: 1% 1%;
+    margin-bottom: 1%;
+    background-color: rgba(170, 183, 211, 0.75);
+    border-radius: 0.4%;
+    font-size: 120%;
+}
+
+.contenedorTitulo{
+    text-align: center;
+    padding: 1% 1%;
+    margin-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 1%;
+    font-size: 300%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedorSubtitulo{
+    font-size: 140%;
+    padding: 1% 1%;
+    margin-bottom: 1%;
+    background-color: rgba(117, 131, 160, 0.85);
+    border-radius: 1%;
+    text-align: center;
+}
+
+.contenedor {
+    padding: 1% 1%;
+    margin-bottom: 1%;
+    background-color: rgba(170, 183, 211, 0.75);
+    border-radius: 0.4%;
+    font-size: 120%;
 }
